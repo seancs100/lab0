@@ -1,5 +1,5 @@
 body {
-    background: #d6b192;
+    background: #b7a391;
 }
 
 .navigation > li > a {
@@ -16,4 +16,16 @@ body {
 
 h2 {
 	font-size: 25px;
+}
+
+#carrots {
+	width: 50%;
+}
+
+h1, h6{
+	color: white;
+}
+
+h1 {
+	padding-top: 225px;
 }
