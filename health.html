@@ -15,27 +15,64 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    	<!-- Loading all CSS Files -->
-    	<!-- My Custom Stylesheet -->
-    	<link rel="stylesheet" href="style.css">
+        <!-- Loading all CSS Files -->
+        <!-- My Custom Stylesheet -->
+        <link rel="stylesheet" href="style.css">
 
         <title>Carrots</title>
     </head>
     <body>
 
-        <img id = "icon" src = "./logo.png" />
+        <div class="container">
 
-        <h2>Health Benefits Page </h2>
+            <!-- Image and text -->
+            <nav class="navbar  navbar-expand-lg navbar-dark" style="background-color: #b7a391;">
+              <a class="navbar-brand" href="#">
+                <img src="./logo.png" width="75" class="d-inline-block align-top" alt="">
+                Carrot
+              </a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./health.html">Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./reading.html">Reading</a>
+              </li>
+
+            </ul>
+
+            </nav>
+
+
+        <h2>Key Carrot Statistics (1 Medium 61g Carrot)</h2>
+
+          <div class="row">
+            <div class="col">
+              <table class="table">
+                  <tbody>
+                    <tr>
+                      <th scope="row">Calories</th>
+                      <td>25</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Potassium</th>
+                      <td>195 mg</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Dietary fiber</th>
+                      <td>1.7 g</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </div>
 
         <!-- A navbar for my links -->
         <div class = "myNav">
-
-
-        <ul class = "navigation" >
-            <li><a href="index.html">Index</a></li>
-            <li><a href="health.html">Health Benefits</a></li>
-            <li><a href="reading.html">Further Reading</a></li>
-        </ul>
 
         </div>
 
@@ -49,4 +86,17 @@
 
     </body>
 </html>
+
+<!-- todo 
+
+X css file
+X list
+table
+X image
+X 3 total pages
+X 5 css properties (one #ID, one class)
+add bootstrap
+add a github repo
+
+-->
 
