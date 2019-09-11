@@ -12,3 +12,6 @@ Code Structure:
 - style.css: Additional CSS styling done here (On top of bootstrap styling)
 - logo.png: My carrot icon (Sourced from freepik)
 - carrots.png: The picture of the carrots (Sourced from pngall)
+
+Tools:
+- I used bootstrap 4 for page styling
